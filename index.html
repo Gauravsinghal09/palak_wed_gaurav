@@ -2801,6 +2801,290 @@
     }
   }
 
+
+  /* ═══════════════════════════════════════════
+     EXTRA SMALL MOBILE SUPPORT
+     Optimized for 320px–360px wide phones
+     ═══════════════════════════════════════════ */
+  @media (max-width: 360px) {
+    .page {
+      padding-left: 0.72rem !important;
+      padding-right: 0.72rem !important;
+      padding-bottom: 4.8rem !important;
+    }
+
+    .page-nav {
+      right: 5px !important;
+      gap: 8px !important;
+    }
+    .page-nav a {
+      width: 6px !important;
+      height: 6px !important;
+    }
+
+    .corner-floral {
+      width: 92px !important;
+      height: 92px !important;
+      opacity: 0.24 !important;
+    }
+
+    .cover-content {
+      width: 100%;
+    }
+    .cover-names {
+      font-size: clamp(3.15rem, 18vw, 4.7rem) !important;
+      line-height: 0.88 !important;
+    }
+    .cover-amp {
+      font-size: clamp(1.12rem, 5.6vw, 1.55rem) !important;
+      letter-spacing: 0.18em !important;
+      margin: 0.32rem 0 !important;
+    }
+    .cover-date {
+      font-size: 0.92rem !important;
+      line-height: 1.45 !important;
+      letter-spacing: 0.035em !important;
+      margin-top: 0.9rem !important;
+    }
+    .countdown {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 5px !important;
+      padding: 0 2px !important;
+      margin-top: 1.5rem !important;
+    }
+    .count-unit {
+      padding: 8px 2px !important;
+      border-radius: 9px !important;
+    }
+    .count-num {
+      font-size: 1.18rem !important;
+    }
+    .count-label {
+      font-size: 0.42rem !important;
+      letter-spacing: 0.11em !important;
+    }
+
+    .ganesha-img {
+      width: 68px !important;
+    }
+    .ganesha-mantra {
+      font-size: 0.7rem !important;
+      letter-spacing: 0.08em !important;
+      padding-left: 0.65rem !important;
+      padding-right: 0.65rem !important;
+    }
+    #story .hosts-line {
+      font-size: 0.98rem !important;
+      line-height: 1.45 !important;
+      margin-top: 1.45rem !important;
+    }
+    #story .seek-line,
+    #story .invite-parents {
+      font-size: 0.92rem !important;
+      line-height: 1.55 !important;
+    }
+    .invite-name {
+      font-size: clamp(2.45rem, 13vw, 3.15rem) !important;
+      margin-top: 1.15rem !important;
+    }
+
+    .haldi-block,
+    .sangeet-block {
+      padding: 2.05rem 1rem !important;
+      margin-top: 0.9rem !important;
+      width: calc(100% - 0.2rem) !important;
+    }
+    .haldi-inner-frame,
+    .sangeet-inner-frame {
+      inset: 18px !important;
+    }
+    .haldi-name,
+    .sangeet-name {
+      font-size: clamp(2.45rem, 13vw, 3.1rem) !important;
+      white-space: normal !important;
+    }
+    .sangeet-name {
+      line-height: 0.96 !important;
+    }
+    .haldi-ceremony-sub,
+    .sangeet-ceremony-sub {
+      font-size: 0.58rem !important;
+      letter-spacing: 0.24em !important;
+      margin-bottom: 0.9rem !important;
+    }
+    .haldi-time,
+    .sangeet-time {
+      font-size: 0.94rem !important;
+      line-height: 1.48 !important;
+      letter-spacing: 0 !important;
+      margin: 0.35rem auto !important;
+    }
+    .haldi-time .dot,
+    .sangeet-time .dot {
+      display: none !important;
+    }
+    .haldi-desc,
+    .sangeet-desc {
+      font-size: 0.92rem !important;
+      line-height: 1.55 !important;
+      margin-top: 0.75rem !important;
+    }
+
+    section.page#wedding-photo .couple-img,
+    section.page#reception-photo .couple-img {
+      max-width: 390px !important;
+    }
+
+    .venue-box {
+      padding: 1.35rem 1rem !important;
+      border-radius: 18px !important;
+    }
+    .venue-name {
+      font-size: 1.55rem !important;
+    }
+    .venue-location {
+      font-size: 0.68rem !important;
+      letter-spacing: 0.13em !important;
+      line-height: 1.45 !important;
+    }
+    .venue-desc {
+      font-size: 0.9rem !important;
+      line-height: 1.6 !important;
+    }
+    .venue-map {
+      min-height: 132px !important;
+      height: auto !important;
+      padding: 1rem 0.65rem !important;
+      font-size: 0.72rem !important;
+      line-height: 1.45 !important;
+    }
+    .map-action {
+      font-size: 0.58rem !important;
+      letter-spacing: 0.11em !important;
+      padding: 0.52rem 0.82rem !important;
+    }
+
+    #family-invites {
+      padding-left: 0.78rem !important;
+      padding-right: 0.78rem !important;
+    }
+    #family-invites .section-title {
+      font-size: clamp(1.95rem, 10vw, 2.6rem) !important;
+    }
+    #family-invites .family-invites-intro {
+      font-size: 0.9rem !important;
+      line-height: 1.55 !important;
+    }
+    #family-invites .family-invites-heading {
+      font-size: 0.66rem !important;
+      letter-spacing: 0.18em !important;
+      margin-bottom: 0.7rem !important;
+    }
+    #family-invites .family-invites-heading::before,
+    #family-invites .family-invites-heading::after {
+      width: 14px !important;
+      margin: 0 0.32rem !important;
+    }
+    #family-invites .family-invites-list li,
+    #family-invites .family-invites-list.compact li {
+      font-size: 0.93rem !important;
+      line-height: 1.45 !important;
+    }
+    #family-invites .family-invites-art img {
+      max-height: 25vh !important;
+    }
+    #family-invites .final-back-top {
+      padding: 0.78rem 1.55rem !important;
+      font-size: 0.62rem !important;
+      letter-spacing: 0.11em !important;
+    }
+
+    .entry-card {
+      width: 92vw !important;
+      padding: 1.35rem 1rem !important;
+      border-radius: 22px !important;
+      max-height: calc(100dvh - 1.6rem) !important;
+    }
+    .entry-title {
+      font-size: clamp(2.7rem, 15vw, 4rem) !important;
+      line-height: 0.9 !important;
+    }
+    .entry-subtitle {
+      font-size: 0.93rem !important;
+      line-height: 1.42 !important;
+      margin: 0.82rem auto 1rem !important;
+    }
+    .entry-open {
+      width: min(100%, 270px) !important;
+      min-height: 44px !important;
+      font-size: 0.62rem !important;
+      letter-spacing: 0.10em !important;
+      padding: 0.78rem 0.95rem !important;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .page {
+      padding-left: 0.58rem !important;
+      padding-right: 0.58rem !important;
+    }
+    .cover-names {
+      font-size: clamp(2.9rem, 17vw, 4.2rem) !important;
+    }
+    .countdown {
+      gap: 4px !important;
+    }
+    .count-unit {
+      padding: 7px 1px !important;
+    }
+    .count-num {
+      font-size: 1.05rem !important;
+    }
+    .count-label {
+      font-size: 0.38rem !important;
+      letter-spacing: 0.08em !important;
+    }
+    .haldi-block,
+    .sangeet-block {
+      padding-left: 0.82rem !important;
+      padding-right: 0.82rem !important;
+    }
+    .haldi-time,
+    .sangeet-time {
+      font-size: 0.89rem !important;
+    }
+    .entry-title {
+      font-size: clamp(2.55rem, 14vw, 3.7rem) !important;
+    }
+    .entry-open {
+      font-size: 0.58rem !important;
+      letter-spacing: 0.08em !important;
+    }
+  }
+
+  @media (max-height: 640px) and (max-width: 420px) {
+    .entry-card {
+      padding-top: 1.1rem !important;
+      padding-bottom: 1.1rem !important;
+    }
+    .entry-ornament {
+      margin-bottom: 0.52rem !important;
+    }
+    .entry-title {
+      font-size: clamp(2.55rem, 11vh, 3.8rem) !important;
+    }
+    .entry-subtitle {
+      margin: 0.65rem auto 0.85rem !important;
+      font-size: 0.9rem !important;
+    }
+    .entry-open {
+      min-height: 42px !important;
+    }
+    .scroll-cue {
+      display: none !important;
+    }
+  }
+
 </style>
 </head>
 <body>
@@ -2906,7 +3190,7 @@
 </section>
 
 <!-- ═══════════════ PAGE 2: FORMAL INVITATION ═══════════════ -->
-<section class="page" id="story">
+<section class="page no-bouquet" id="story">
   <div class="invitation-content">
 
     <div class="ganesha-block reveal">
